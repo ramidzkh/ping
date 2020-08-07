@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "ping",
+  "version": "1.0.0",
+  "mixins": ["mixins.ping.json"],
+  "entrypoints": {
+    "main": ["me.ramidzkh.ping.mod.Ping::initialize"],
+    "client": ["me.ramidzkh.ping.mod.PingClient::initializeClient"]
+  },
+  "depends": {
+    "fabric": ">=0.16.0",
+    "minecraft": "1.16.1"
+  },
+  "name": "Ping",
+  "description": "Portal 2 like ping on blocks and entities",
+  "authors": ["ramidzkh"],
+  "license": ["MIT"]
+}

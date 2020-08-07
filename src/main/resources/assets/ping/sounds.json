@@ -1,0 +1,8 @@
+{
+  "ping": {
+    "subtitle": "ping.ping",
+    "sounds": [
+      "ping:ping"
+    ]
+  }
+}
